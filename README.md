@@ -46,17 +46,3 @@ La autenticación se maneja con JWT:
 
 - Al registrarse o iniciar sesión exitosamente, se devuelve un token JWT.
 - Este token debe incluirse en el header `Authorization` para acceder a rutas protegidas.
-
-
-## ▶️ Cómo ejecutar
-
-```bash
-# Clona el repositorio
-git clone https://github.com/AVARGASR/koywe.git
-cd koywe
-
-# Instala dependencias
-npm install
-
-# Ejecuta en desarrollo
-npm run start:dev
